@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 3: Your Review</title>
+</head>
+<body>
+    <div class="step-indicator" style="display: flex;justify-content: center;">
+        <div><h1>Step 1: Account&nbsp;|</h1></div>
+        <div><h1>&nbsp; Step 2: Personal Details&nbsp;|</h1></div>
+        <div  style="background-color: rgb(0, 119, 255);color: #fff;"><h1>&nbsp;Step 3: Your Review</h1></div>
+    </div>
+    <hr>
+    <form style="margin: 0px 150px;" action="index.html" method="get">
+<label><strong>How did you hear about us? Select your option ☆</strong></label><br>
+        <select>
+            <option value="option1">Option 1</option>
+            <option value="option2">Social Media</option>
+            <option value="option3">From Someone</option>
+        </select><br><br>
+
+        <label><strong>Would you visit again?</strong></label><br>
+        <input type="radio" id="yes" name="visit" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="visit" value="No">
+        <label for="no">No</label><br>
+        <input type="radio" id="maybe" name="visit" value="Maybe">
+        <label for="maybe">Maybe</label><br><br>
+
+        <label for="comments"><strong>Comments:</strong></label><br>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea><br><br>
+
+        <label for="documents"><strong>Documents:</strong></label><br>
+        <input type="file" id="documents" name="documents"><br><br>
+
+        <input type="checkbox" id="updates" name="updates">
+        <label for="updates">Sign me up for email updates</label><br><br>
+
+        <button type="submit"><img src="assets/submit.png" alt="not founded" width="150px"></button>
+    </form>
+</body>
+</html>

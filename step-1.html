@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 1: Account</title>
+    
+</head>
+<body style="margin: 200px;">
+    <div class="step-indicator" style="display: flex;justify-content: center;">
+        <div><h1 style="background-color: rgb(0, 119, 255);color: #fff;">Step 1: Account&nbsp;</h1></div>
+        <div><h1>|&nbsp; Step 2: Personal Details&nbsp;|</h1></div>
+        <div><h1>&nbsp;Step 3: Your Review</h1></div>
+    </div>
+
+    <form action="./step-2.html" method="get" align="center">
+        <h1>Account</h1>
+        <div class="form-group">
+            <label for="email"><span><strong>Email Address:</strong></span></label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required>
+        </div><br><br>
+        <div class="form-group">
+            <label for="password"><span><strong>Password:</strong></span></label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        </div><br><br>
+        <div class="form-group">
+            <label for="confirm-password"><span><strong>Conform Password:</strong></span></label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+        </div><br><br>
+
+        <div class="navigation-buttons">
+            <button type="button" onclick="window.location.href='index.html'"><img src="assets/back.png" alt="non founded" width="150px"></button>
+            <button type="submit"><img src="assets/next.png" alt="not founded" width="150px"></button>
+        </div>
+    </form>
+</body>
+</html>
